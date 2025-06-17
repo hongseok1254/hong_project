@@ -1,0 +1,41 @@
+.familyhistory {
+    width: 100%;
+}
+.familyhistory_table {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.table_01 td {
+    width: 1600px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    border: 1px solid #999;
+    background-color: #fafafa;
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+.history_01 {
+    width: 300px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 1rem;
+    padding: 60px 15px;
+}
+.history_02 {
+    width: 200px;
+    text-align: center;
+    font-size: 1rem;
+    vertical-align: middle;
+}
+.history_03 {
+    font-size: 1rem;
+    vertical-align: middle;
+    padding-left: 20px;
+}
+.familyhistory_table table td {
+    border: 1px solid #999;
+}
