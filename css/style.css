@@ -24,6 +24,7 @@ img {
     gap: 240px;
     position: fixed;
     color: white;
+    z-index: 999999;
 }
 .header_white {
     width: 100%;
@@ -36,6 +37,7 @@ img {
     color: black;
     position: sticky;
     top: 0px;
+    z-index: 99999;
 }
 .header:hover {
     background-color: white;
