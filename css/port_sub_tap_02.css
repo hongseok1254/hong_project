@@ -15,17 +15,56 @@
     width: 250px;
     margin: 0 10px;
     text-align: center;
-    padding: 10px;
+    padding: 20px 10px;
     border: 1px solid #ccc;
     transition: 0.3s;
 }
 
 .port_tap .tap_list li:hover {
-    background-color: #004b87;
+    background-color: #44217a;
     color: #fff;
 }
 
 .port_tap .tap_list li:last-child {
-    background-color: #004b87;
+    background-color: #44217a;
     color: #fff;
+}
+.sub_tap_02_details {
+    width: 1280px;
+    margin: 50px auto;
+    font-size: 1.7rem;
+}
+.sub_tap_02_list_01 {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sub_tap_02_list_01 li {
+    width: 33%;
+    margin-right: 20px;
+}
+.sub_tap_02_list_01 li img {
+    width: 100%;
+    height: auto;
+}
+.sub_tap_02_details {
+    margin-top: 50px;
+}
+.sub_tap_02_details_box {
+    margin-top: 50px;
+}
+
+.sub_tap_02_details_box_list ul {
+    font-size: 20px;
+    margin: 15px 30px;
+}
+
+.sub_tap_02_details_box_list ul li {
+    margin-top: 15px;
+}
+
+.sub_tap_02_details_box .detail_title {
+    font-size: 1.7rem;
+    margin-top: 35px;
 }
