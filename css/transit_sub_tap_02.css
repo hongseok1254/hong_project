@@ -31,7 +31,7 @@ body {
     color: #fff;
 }
 
-.transit_tap .tap_list li:first-child {
+.transit_tap .tap_list li:last-child {
     background-color: #44217a;
     color: #fff;
 }
