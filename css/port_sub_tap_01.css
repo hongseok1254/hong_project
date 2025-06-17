@@ -1,0 +1,46 @@
+.port_tap {
+    width: 100%;
+}
+
+.port_tap .tap_list {
+    width: 700px;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 1.25rem;
+}
+
+.port_tap .tap_list li {
+    width: 250px;
+    margin: 0 10px;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #ccc;
+    transition: 0.3s;
+}
+
+.port_tap .tap_list li:hover {
+    background-color: #004b87;
+    color: #fff;
+}
+
+.port_tap .tap_list li:nth-child(2) {
+    background-color: #004b87;
+    color: #fff;
+}
+
+.detail_title {
+    margin-left: 70px;
+    font-size: 1.7rem;
+}
+
+.sub_tap_01_detail ul {
+    display: grid;
+    width: 1600px;
+    margin: 0 auto;
+    height: 100px;
+    grid-template-columns: repeat(5, 1fr);
+    text-align: center;
+    border: 1px solid #ccc;
+}

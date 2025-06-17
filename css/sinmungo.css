@@ -1,0 +1,30 @@
+.main_title {
+    width: 1280px;
+    margin: 50px auto;
+    text-align: center;
+    height: 100px;
+    line-height: 100px;
+    position: relative;
+}
+
+.main_title > h2 {
+    font-size: 40px;
+    font-weight: bold;
+    color: #333;
+    margin: 0;
+}
+.main_title img {
+    position: absolute;
+    top: -10px;
+    left: 700px;
+}
+.main_title > h2::after {
+    content: '';
+    position: absolute;
+    width: 100px;
+    height: 4px;
+    background-color: #6b46c1;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
