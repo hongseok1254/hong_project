@@ -3,7 +3,7 @@
     margin-bottom: 200px;
 }
 .notice_box {
-    width: 80%;
+    width: 70%;
     height: 100px;
     margin: 0 auto;
     background-color: #fafafa;
@@ -41,7 +41,7 @@ input {
     color: white;
 }
 .notice_table {
-    width: 80%;
+    width: 70%;
     margin: 0 auto;
 }
 .notice_grey td {
