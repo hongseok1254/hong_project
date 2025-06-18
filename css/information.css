@@ -43,12 +43,15 @@ body {
     letter-spacing: 1rem;
 }
 
+<<<<<<< HEAD
 header {
     background: #fff;
     border-bottom: 1px solid #eee;
     padding: 10px 0;
 }
 
+=======
+>>>>>>> 5ab51f7241f85f6da6b038dbca4f25648fb49275
 .nav-container {
     width: 1200px;
     margin: 0 auto;
@@ -124,7 +127,11 @@ header {
 }
 
 .about-content ul li {
+<<<<<<< HEAD
     width: calc((100%) / 3);
+=======
+    width: 33%;
+>>>>>>> 5ab51f7241f85f6da6b038dbca4f25648fb49275
     display: inline-table;
     text-align: center;
     min-height: 250px;
@@ -152,11 +159,18 @@ header {
 .gallery-container {
     max-width: 1000px;
     margin: 50px auto;
+<<<<<<< HEAD
 
     border-radius: 8px;
     overflow: hidden;
 }
 
+=======
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+>>>>>>> 5ab51f7241f85f6da6b038dbca4f25648fb49275
 .main-image-container {
     position: relative;
     width: 100%;
