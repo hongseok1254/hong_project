@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.container {
+    width: 70%;
+    padding: 0 10px;
+    margin: 0 auto 130px;
+}
+
+.slider{
+    width: 100%;
+    height: 500px;
+    background-image: url('../images/info_header_img.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.slider h1{
+    position: relative;
+    text-align: center;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 42px;
+    font-weight: bold;
+}
+
+.slider span{
+    font-size: 18px;
+    font-weight: 100;
+    color: #fff;
+    line-height: 1.6;
+    letter-spacing: 1rem;
+}
+
+
+.eth_tap {
+    width: 100%;
+}
+
+.eth_tap .tap_list {
+    width: 700px;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 1.25rem;
+}
+
+.eth_tap .tap_list li {
+    width: 250px;
+    margin: 0 10px;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #ccc;
+    transition: 0.3s;
+}
+
+.eth_tap .tap_list li:hover {
+    background-color: #44217a;
+    color: #fff;
+}
+
+.eth_tap .tap_list li:first-child {
+    background-color: #44217a;
+    color: #fff;
+}
+
+.main_title {
+    width: 1280px;
+    margin: 50px auto;
+    text-align: center;
+    height: 100px;
+    line-height: 100px;
+    position: relative;
+}
+
+.main_title > h2 {
+    font-size: 40px;
+    font-weight: bold;
+    color: #333;
+    margin: 0;
+}
+.main_title img {
+    position: absolute;
+    top: -10px;
+    left: 700px;
+}
+
+
+
+.toc-section{
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 30px;
+}
+        
+        .toc-title {
+            font-weight: bold;
+            margin-bottom: 15px;
+            font-size: 16px;
+        }
+        
+        .toc-item {
+            margin-bottom: 8px;
+            font-size: 14px;
+            line-height: 1.4;
+        }
+
+        .section-title {
+            font-weight: bold;
+            font-size: 18px;
+            margin: 40px 0 20px 0;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #ddd;
+            color: #333;
+        }
+        
+        .article-title {
+            font-weight: bold;
+            font-size: 16px;
+            margin: 30px 0 15px 0;
+            color: #333;
+        }
+        
+        .article-content {
+            margin-bottom: 20px;
+            text-align: justify;
+            font-size: 14px;
+            line-height: 1.8;
+            color: #555;
+        }
+        
+        .numbered-list {
+            margin: 20px 0;
+            padding-left: 0;
+        }
+        
+        .numbered-item {
+            margin-bottom: 15px;
+            font-size: 14px;
+            line-height: 1.8;
+            color: #555;
+        }
+        
+        .numbered-item .number {
+            font-weight: bold;
+            margin-right: 8px;
+        
+        }
+

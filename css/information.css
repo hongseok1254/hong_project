@@ -1,7 +1,6 @@
   * {
             margin: 0;
             padding: 0;
-            box-sizing: border-box;
     }
 
 
@@ -13,9 +12,9 @@ body {
   }
 
   .container {
-            max-width: 1420px;
-            padding: 0 10px;
-            margin: 0 auto 130px;
+    width: 70%;
+    padding: 0 10px;
+    margin: 0 auto 130px;
         }
 
   .slider{
@@ -81,15 +80,31 @@ body {
             font-weight: bold;
             color: #333;
             margin-bottom: 10px;
+            
         }
 
         .about-header h1 span{
             color: #44217a;
+            
         }
+
+       
 
         .kg-logo{
             line-height: 1.6;
             font-size: 40px;
+            position: relative;
+        }
+
+         .kg-logo::before{
+            color: #44217a;
+            content: "";
+        position: absolute;
+        right: 15px;
+        top: -30px;
+        background: url('../images/after_img.png') no-repeat right center;
+        width: 24px;
+        height: 42px;
         }
        
 

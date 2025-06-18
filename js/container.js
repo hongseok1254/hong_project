@@ -25,7 +25,7 @@ const mainImage = document.getElementById('mainImage');
 const prevBtn = document.getElementById('prevBtn');
 const nextBtn = document.getElementById('nextBtn');
 const thumbnailsContainer = document.getElementById('thumbnailsContainer');
-const loading = document.getElementById('loading');
+
 
 // 초기화
 function init() {
@@ -58,10 +58,10 @@ function showImage(index) {
     img.onload = () => {
         mainImage.src = images[index].src;
         mainImage.alt = images[index].alt;
-        loading.style.display = 'none';
+        
     };
     img.onerror = () => {
-        loading.style.display = 'none';
+    
     };
     img.src = images[index].src;
 

@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 70%;
+}
+
+
+
+
+
+        .company-info {
+            display: flex;
+            align-items: center;
+            gap: 30px;
+        }
+
+        .logo-section {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .logo {
+            width: 60px;
+            height: 60px;
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-weight: bold;
+            font-size: 18px;
+        }
+
+        .company-name {
+            font-size: 28px;
+            font-weight: bold;
+            color: #333;
+        }
+
+        .company-name .brand {
+            color: #e91e63;
+        }
+
+        .contact-info {
+            flex: 1;
+        }
+
+         .info-section {
+            margin-top: 30px;
+        }
+
+        .info-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 15px;
+            font-size: 16px;
+        }
+
+        .info-item:last-child {
+            margin-bottom: 0;
+        }
+
+.contact-row {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+.info-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 15px;
+    opacity: 0.7;
+}
+
+        .info-text {
+            color: #666;
+        }
+
+        .address {
+            font-weight: 600;
+            color: #333;
+        }
+
+        .phone {
+            
+            text-decoration: none;
+        }
+
+        .phone:hover {
+            text-decoration: underline;
+        }
+
+        .email {
+            
+            text-decoration: none;
+        }
+
+        .email:hover {
+            text-decoration: underline;
+        }
+
+        .fax {
+            color: #666;
+        }
