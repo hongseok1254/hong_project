@@ -48,7 +48,7 @@ promotion -종윤
 	employment -채용공고
 	familyhistory -가족사
 
-invest - 석현
+invest - 석현\
 
 	electronic -전자공고
 	Disclosure -공시정보
