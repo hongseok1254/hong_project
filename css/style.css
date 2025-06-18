@@ -87,7 +87,7 @@ img {
 .sub_list {
     width: 1910px;
     height: 50px;
-    background-color: #ddddddc7;
+    background-color: #ddddddc9;
     display: none;
     box-sizing: border-box;
     position: absolute;
@@ -153,7 +153,7 @@ img {
     width: 1920px;
     height: 300px;
     position: absolute;
-    background-color: #dddddd58;
+    background-color: #fafafa;
     top: 100px;
     box-sizing: border-box;
     padding-left: 630px;
