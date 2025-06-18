@@ -4,11 +4,11 @@ body {
     font-family: 'Noto Sans KR', sans-serif;
 }
 
-.storage_tap {
+.circulation_tap {
     width: 100%;
 }
 
-.storage_tap .tap_list {
+.circulation_tap .tap_list {
     width: 900px;
     margin: 50px auto;
     display: flex;
@@ -17,7 +17,7 @@ body {
     font-size: 1.25rem;
 }
 
-.storage_tap .tap_list li {
+.circulation_tap .tap_list li {
     width: 250px;
     margin: 0 10px;
     text-align: center;
@@ -26,30 +26,30 @@ body {
     transition: 0.3s;
 }
 
-.storage_tap .tap_list li:hover {
+.circulation_tap .tap_list li:hover {
     background-color: #44217a;
     color: #fff;
 }
 
-.storage_tap .tap_list li:last-child {
+.circulation_tap .tap_list li:nth-child(2) {
     background-color: #44217a;
     color: #fff;
 }
 
-.storage_details {
-    width: 1280px;
+.circulation_details {
+    width: 70%;
     margin: 50px auto;
     font-size: 1.7rem;
     text-align: center;
 }
-.storage_details .storage_detail_text {
+.circulation_details .circulation_detail_text {
     width: 500px;
     margin: 30px auto;
     font-size: 1.313rem;
     line-height: 1.4;
     color: #1b1b1b;
 }
-.storage_main_img {
+.circulation_main_img {
     width: 100%;
     margin: 50px 0;
 }
@@ -77,11 +77,17 @@ body {
 .detail_list li span {
     padding-left: 20px;
 }
-.storage_img {
+.circulation_img {
     display: flex;
     justify-content: space-between;
     margin-bottom: 30px;
 }
-.storage_img li {
+.circulation_img li {
     width: 45%;
+}
+
+.circulation_img_list {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
 }

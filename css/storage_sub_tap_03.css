@@ -78,10 +78,16 @@ body {
     padding-left: 20px;
 }
 .storage_img {
+    width: 100%;
     display: flex;
     justify-content: space-between;
     margin-bottom: 30px;
 }
 .storage_img li {
-    width: 45%;
+    width: 48%;
+}
+
+.storage_img li img {
+    width: 100%;
+    height: auto;
 }

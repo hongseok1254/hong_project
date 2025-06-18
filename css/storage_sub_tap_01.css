@@ -40,7 +40,6 @@ body {
     width: 1280px;
     margin: 50px auto;
     font-size: 1.7rem;
-    text-align: center;
 }
 .storage_details .storage_detail_text {
     width: 500px;
@@ -49,9 +48,16 @@ body {
     line-height: 1.4;
     color: #1b1b1b;
 }
-.storage_main_img {
+.storage_img {
     width: 100%;
     margin: 50px 0;
+}
+.storage_img li {
+    width: 60%;
+}
+.storage_img li img {
+    width: 100%;
+    height: auto;
 }
 .detail_title {
     display: block;
@@ -83,5 +89,5 @@ body {
     margin-bottom: 30px;
 }
 .storage_img li {
-    width: 45%;
+    width: 48%;
 }
