@@ -2,7 +2,7 @@
     margin-bottom: 200px;
 }
 .employment_box {
-    width: 80%;
+    width: 70%;
     height: 100px;
     margin: 0 auto;
     background-color: #fafafa;
@@ -40,7 +40,7 @@ input {
     color: white;
 }
 .employment_table {
-    width: 80%;
+    width: 70%;
     margin: 0 auto;
 }
 .employment_01 td {
