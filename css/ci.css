@@ -1,7 +1,4 @@
-*{
-    margin: 0;
-    padding: 0;
-}
+
 
 .container{
     width: 70%;
@@ -9,32 +6,6 @@
     margin: 0 auto 130px;
 }
 
-.slider{
-    width: 100%;
-    height: 500px;
-    background-image: url('../images/info_header_img.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-.slider h1{
-    position: relative;
-    text-align: center;
-    color: #fff;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 42px;
-    font-weight: bold;
-}
-
-.slider span{
-    font-size: 18px;
-    font-weight: 100;
-    color: #fff;
-    line-height: 1.6;
-    letter-spacing: 1rem;
-}
 
 .section {
             
@@ -102,7 +73,7 @@
             background-size: cover;
             background-repeat: no-repeat;
             width: 210px;
-            height: 280px;
+            height: 281px;
         }
         
         .symbol-mark::before {
@@ -124,7 +95,7 @@
             width: 80px;
             height: 40px;
             
-           
+        
         }
         
         .slogan-section {

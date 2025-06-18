@@ -1,35 +1,4 @@
-*{
-    margin: 0;
-    padding: 0;
-}
 
-
-.slider{
-    width: 100%;
-    height: 500px;
-    background-image: url('../images/info_header_img.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-  }
-
-.slider h1{
-    position: relative;
-    text-align: center;
-    color: #fff;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 42px;
-    font-weight: bold;
-  }
-
-  .slider span{
-    font-size: 18px;
-    font-weight: 100;
-    color: #fff;
-    line-height: 1.6;
-    letter-spacing: 1rem;
-  }
 
 .eth_tap {
     width: 100%;
@@ -63,26 +32,6 @@
     color: #fff;
 }
 
-.main_title {
-    width: 1280px;
-    margin: 50px auto;
-    text-align: center;
-    height: 100px;
-    line-height: 100px;
-    position: relative;
-}
-
-.main_title > h2 {
-    font-size: 40px;
-    font-weight: bold;
-    color: #333;
-    margin: 0;
-}
-.main_title img {
-    position: absolute;
-    top: -10px;
-    left: 700px;
-}
 
 .container {
     width: 70%;
