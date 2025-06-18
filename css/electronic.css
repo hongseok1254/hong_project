@@ -1,0 +1,85 @@
+.electronic {
+    width: 100%;
+    margin-bottom: 200px;
+}
+.electronic_list {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+.electronic_title h2 {
+    font-size: 1.5rem;
+    color: #333333;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.electronic_title h2 img {
+    margin-right: 10px;
+}
+.electronic_text {
+    width: 100%;
+    height: 70px;
+    line-height: 70px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    box-sizing: border-box;
+    padding-left: 20px;
+    cursor: pointer;
+    font-size: 1.188rem;
+    color: #1b1b1b;
+}
+.electronic_text span {
+    float: right;
+    margin-right: 30px;
+}
+.electronic_hidden {
+    width: 100%;
+    height: 100px;
+    line-height: 100px;
+    border-bottom: 1px solid black;
+    color: #999;
+    padding-left: 20px;
+    box-sizing: border-box;
+    position: relative;
+    display: none;
+}
+.electronic_hidden span {
+    float: right;
+}
+.purple_box img {
+    margin-left: 10px;
+}
+.purple_box {
+    display: block;
+    width: 140px;
+    height: 20px;
+    padding: 15px;
+    line-height: 0;
+    text-align: center;
+    background-color: #44217a;
+    color: white;
+    border-radius: 5px;
+    position: absolute;
+    font-weight: bold;
+    right: 20px;
+    top: 23px;
+    cursor: pointer;
+}
+.electronic_text_04 {
+    width: 1335px;
+    border-top: none;
+    position: relative;
+}
+.electronic_text_04 span {
+    position: absolute;
+    right: 0;
+}
+
+.electronic_hidden_04 {
+    width: 100%;
+    line-height: 1.7;
+    box-sizing: border-box;
+    padding: 20px;
+}
