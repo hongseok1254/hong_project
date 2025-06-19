@@ -36,6 +36,7 @@
     font-size: 28px;
     font-weight: bold;
     color: #333;
+    padding-right: 30px;
 }
 
 .company-name .brand {
@@ -44,10 +45,14 @@
 
 .contact-info {
     flex: 1;
+    margin-top: 30px;
+    border-left: 1px solid #ccc;
+    padding-left: 20px;
 }
 
 .info-section {
-    margin-top: 30px;
+    margin-top: 35px;
+    margin-left: 5px;
 }
 
 .info-item {
@@ -55,6 +60,7 @@
     align-items: center;
     margin-bottom: 15px;
     font-size: 16px;
+    padding-left: 30px;
 }
 
 .info-item:last-child {
@@ -76,11 +82,12 @@
 
 .info-text {
     color: #888;
+    margin-left: 5px;
 }
 
 .address {
-    font-weight: 600;
     color: #333;
+    font-size: 1.3rem;
 }
 
 .phone {
