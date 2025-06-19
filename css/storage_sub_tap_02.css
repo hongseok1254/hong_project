@@ -25,13 +25,15 @@ body {
     border: 1px solid #ccc;
     transition: 0.3s;
 }
-
+.storage_tap .tap_list li a {
+    display: block;
+}
 .storage_tap .tap_list li:hover {
     background-color: #44217a;
     color: #fff;
 }
 
-.storage_tap .tap_list li:first-child {
+.storage_tap .tap_list li:nth-child(3) {
     background-color: #44217a;
     color: #fff;
 }

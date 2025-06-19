@@ -63,6 +63,9 @@
     cursor: pointer;
     box-sizing: border-box;
 }
+.nav_list li a {
+    display: block;
+}
 .nav_list li:hover {
     background-color: #99999916;
 }
