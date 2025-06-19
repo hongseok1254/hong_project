@@ -53,9 +53,6 @@
         }
         
         .kg-logo {
-            background-image: url('../images/ci_img01.jpg');
-            background-size: cover;
-            background-repeat: no-repeat;
             width: 210px;
             height: 150px;
             
@@ -69,9 +66,6 @@
         }
         
         .symbol-mark {
-            background-image: url('../images/ci_img02.jpg');
-            background-size: cover;
-            background-repeat: no-repeat;
             width: 210px;
             height: 281px;
         }
@@ -126,7 +120,7 @@
         }
         
         .slogan-text p {
-            color: #666;
+            color: #888;
             font-size: 14px;
             margin-bottom: 15px;
             line-height: 1.8;
@@ -157,13 +151,7 @@
         }
         
         .grigo{
-        font-size: 1.188rem;
+        font-size: 1.25rem;
         font-weight: 500;
-        color: #1b1b1b;
+        color: #333;
         }
-.final-text {
-    text-align: center;
-    margin-top: 30px;
-    color: #666;
-    font-size: 14px;
-}
