@@ -43,19 +43,21 @@ img {
     background-color: white;
     color: black;
 }
-.header_logo {
+.header_logo a {
+    display: block;
     width: 126px;
     height: 62px;
     background-image: url(../images/header_logo_white.png);
     margin-top: 15px;
 }
-.header_logo_white {
+.header_logo_white a {
+    display: block;
     width: 126px;
     height: 62px;
     margin-top: 15px;
     background-image: url(../images/header_logo.png);
 }
-.header:hover .header_logo {
+.header:hover .header_logo a {
     background-image: url(../images/header_logo.png);
 }
 .header:hover .hamburger_color {
