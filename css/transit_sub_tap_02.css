@@ -35,7 +35,15 @@ body {
     background-color: #44217a;
     color: #fff;
 }
-
+.transit_detail_text {
+    width: 70%;
+    margin: 0 auto;
+    font-size: 1.313rem;
+    line-height: 1.4;
+    color: #1b1b1b;
+    text-align: center;
+    font-weight: bold;
+}
 .transit_detail_box {
     width: 1280px;
     margin: 50px auto;
