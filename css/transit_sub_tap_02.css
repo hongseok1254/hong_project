@@ -54,3 +54,27 @@ body {
     width: 100%;
     height: auto;
 }
+
+@media (max-width: 768px) {
+    .transit_tap .tap_list {
+        width: 90%;
+        flex-direction: column;
+        font-size: 1rem;
+    }
+    .transit_tap .tap_list li {
+        width: 100%;
+        margin: 5px 0;
+    }
+    .transit_detail_box {
+        width: 90%;
+        font-size: 1.2rem;
+    }
+    .transit_detail_box .transit_img_box {
+        flex-direction: column;
+    }
+    .transit_detail_box .transit_img_box li {
+        width: 100%;
+        padding: 0;
+        margin-bottom: 20px;
+    }
+}

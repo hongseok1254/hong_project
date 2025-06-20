@@ -81,3 +81,34 @@ body {
     font-size: 1.7rem;
     margin-top: 35px;
 }
+
+@media (max-width: 768px) {
+    .port_tap .tap_list {
+        width: 90%;
+        flex-direction: column;
+        font-size: 1rem;
+    }
+    .port_tap .tap_list li {
+        width: 100%;
+        margin: 5px 0;
+    }
+    .sub_tap_02_details {
+        width: 90%;
+        font-size: 1.2rem;
+    }
+    .sub_tap_02_list_01 {
+        flex-direction: column;
+    }
+    .sub_tap_02_list_01 li {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+    .sub_tap_02_details_box_list ul {
+        font-size: 1rem;
+        margin: 15px 0;
+    }
+    .sub_tap_02_details_box .detail_title {
+        font-size: 1.2rem;
+    }
+}

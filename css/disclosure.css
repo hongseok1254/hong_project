@@ -87,3 +87,67 @@ input {
 .disclosure_02 td:hover {
     background-color: #f7f7f9;
 }
+@media (max-width: 768px) {
+    .disclosure_box {
+        width: 90%;
+        flex-direction: column;
+        height: auto;
+        padding: 20px 0;
+    }
+    .disclosure_select {
+        margin-right: 0;
+        margin-bottom: 10px;
+        width: 80%;
+    }
+    .disclosure_input {
+        width: 80%;
+        margin-bottom: 10px;
+    }
+    .disclosure_black_box {
+        width: 80%;
+    }
+    .disclosure_table {
+        width: 90%;
+    }
+    .disclosure_table table,
+    .disclosure_table thead,
+    .disclosure_table tbody,
+    .disclosure_table th,
+    .disclosure_table td,
+    .disclosure_table tr {
+        display: block;
+    }
+    .disclosure_table .disclosure_01 {
+        display: none;
+    }
+    .disclosure_table tr {
+        border: 1px solid #ccc;
+        margin-bottom: 10px;
+    }
+    .disclosure_table td {
+        border: none;
+        border-bottom: 1px solid #eee;
+        position: relative;
+        text-align: center;
+        padding-left: 80px;
+        white-space: normal;
+        height: auto;
+        line-height: 1.5;
+    }
+    .disclosure_table td::before {
+        content: attr(data-label);
+        position: absolute;
+        left: 0;
+        width: 45%;
+        padding-left: 15px;
+        font-weight: bold;
+        text-align: left;
+    }
+    .table_01,
+    .table_02,
+    .table_03,
+    .table_04 {
+        width: 100%;
+        box-sizing: border-box;
+    }
+}

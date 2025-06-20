@@ -126,3 +126,56 @@
 .sub_tap_01_list_04 li {
     margin-right: 20px;
 }
+
+@media (max-width: 768px) {
+    .port_tap .tap_list {
+        width: 90%;
+        flex-direction: column;
+        font-size: 1rem;
+    }
+    .port_tap .tap_list li {
+        width: 100%;
+        margin: 5px 0;
+    }
+    .detail_title {
+        width: 90%;
+        font-size: 1.2rem;
+    }
+    .sub_tap_01_detail .sub_tap_01_list_01,
+    .sub_tap_01_detail .sub_tap_01_list_02,
+    .sub_tap_01_list_03 {
+        width: 90%;
+        grid-template-columns: 1fr;
+        height: auto;
+    }
+    .sub_tap_01_detail .sub_tap_01_list_01 li,
+    .sub_tap_01_detail .sub_tap_01_list_02 li,
+    .sub_tap_01_list_03 li {
+        grid-column: auto !important;
+        grid-row: auto !important;
+        padding: 10px;
+        font-size: 1rem;
+    }
+
+    .img_box {
+        width: 90%;
+        flex-direction: column;
+    }
+    .img_box li {
+        width: 100%;
+        padding: 0;
+        margin-bottom: 20px;
+    }
+    .img_box img {
+        height: auto;
+    }
+    .sub_tap_01_list_04 {
+        width: 90%;
+        flex-direction: column;
+        height: auto;
+    }
+    .sub_tap_01_list_04 li {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+}

@@ -70,3 +70,35 @@
     color: #333;
     letter-spacing: 2px;
 }
+@media (max-width: 768px) {
+    .container {
+        max-width: 100%;
+        padding: 0 5px;
+        margin: 0 auto 60px;
+    }
+    .hero-image {
+        height: 180px;
+    }
+    .content {
+        padding: 24px 5px;
+    }
+    .content-title {
+        font-size: 15px;
+    }
+    .company-intro,
+    .message-text,
+    .closing {
+        font-size: 13px;
+    }
+    .signature {
+        margin-top: 30px;
+        padding-right: 0;
+        text-align: center;
+    }
+    .signature-company {
+        font-size: 12px;
+    }
+    .signature-name {
+        font-size: 15px;
+    }
+}

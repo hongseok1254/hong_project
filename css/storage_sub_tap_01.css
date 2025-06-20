@@ -93,3 +93,37 @@ body {
 .storage_img li {
     width: 48%;
 }
+
+@media (max-width: 768px) {
+    .storage_tap .tap_list {
+        width: 90%;
+        flex-direction: column;
+        font-size: 1rem;
+    }
+    .storage_tap .tap_list li {
+        width: 100%;
+        margin: 5px 0;
+    }
+    .storage_details {
+        width: 90%;
+        font-size: 1.2rem;
+    }
+    .storage_details .storage_detail_text {
+        width: 100%;
+        font-size: 1rem;
+    }
+    .detail_title {
+        font-size: 1.2rem;
+    }
+    .detail_list {
+        padding-left: 15px;
+        font-size: 1rem;
+    }
+    .storage_img {
+        flex-direction: column;
+    }
+    .storage_img li {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}

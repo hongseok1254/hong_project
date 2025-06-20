@@ -85,3 +85,60 @@ input {
 .employment_02 td:hover {
     background-color: #f7f7f9;
 }
+@media (max-width: 768px) {
+    .employment_box {
+        width: 90%;
+        flex-direction: column;
+        height: auto;
+        padding: 20px 0;
+    }
+    .employment_select {
+        margin-right: 0;
+        margin-bottom: 10px;
+        width: 80%;
+    }
+    .employment_input {
+        width: 80%;
+        margin-bottom: 10px;
+    }
+    .employment_black_box {
+        width: 80%;
+    }
+    .employment_table {
+        width: 90%;
+    }
+    .employment_table table,
+    .employment_table thead,
+    .employment_table tbody,
+    .employment_table th,
+    .employment_table td,
+    .employment_table tr {
+        display: block;
+    }
+    .employment_table .employment_01 {
+        display: none;
+    }
+    .employment_table tr {
+        border: 1px solid #ccc;
+        margin-bottom: 10px;
+    }
+    .employment_table td {
+        border: none;
+        border-bottom: 1px solid #eee;
+        position: relative;
+        padding-left: 0;
+        text-align: center !important;
+        white-space: normal;
+        height: auto;
+        line-height: 1.5;
+        padding: 20px;
+    }
+    .table_01,
+    .table_02,
+    .table_03 {
+        width: 100%;
+        box-sizing: border-box;
+        padding-left: 0;
+        text-align: center !important;
+    }
+}

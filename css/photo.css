@@ -39,3 +39,23 @@ input {
     background-color: #333;
     color: white;
 }
+@media (max-width: 768px) {
+    .photo_box {
+        width: 90%;
+        flex-direction: column;
+        height: auto;
+        padding: 20px 0;
+    }
+    .photo_select {
+        margin-right: 0;
+        margin-bottom: 10px;
+        width: 80%;
+    }
+    .photo_input {
+        width: 80%;
+        margin-bottom: 10px;
+    }
+    .photo_black_box {
+        width: 80%;
+    }
+}

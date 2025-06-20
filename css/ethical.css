@@ -113,3 +113,29 @@
     top: 12px;
     box-sizing: border-box;
 }
+
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+    }
+    .eth_tap .tap_list {
+        width: 90%;
+        flex-direction: column;
+        font-size: 1rem;
+    }
+    .eth_tap .tap_list li {
+        width: 100%;
+        margin: 5px 0;
+    }
+    .toc-item,
+    .article-content,
+    .numbered-item {
+        font-size: 0.9rem;
+    }
+    .section-title {
+        font-size: 1.2rem;
+    }
+    .article-title {
+        font-size: 1rem;
+    }
+}

@@ -178,3 +178,111 @@ table {
 .empty-side {
     width: 50%;
 }
+
+html,
+body {
+    max-width: 100vw;
+    overflow-x: hidden !important;
+}
+.history-logo img {
+    width: 50%;
+    height: auto;
+    display: block;
+    margin: 0 auto 20px auto;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.07);
+}
+@media (max-width: 768px) {
+    .container {
+        width: 98vw;
+        max-width: 100vw;
+        padding: 0 2vw;
+    }
+    .info-section table,
+    .info-section thead,
+    .info-section tbody,
+    .info-section tr,
+    .info-section th,
+    .info-section td {
+        display: block;
+        width: 100% !important;
+        box-sizing: border-box;
+    }
+    .info-section thead {
+        display: none;
+    }
+    .info-section tr {
+        margin-bottom: 18px;
+        background: #fff;
+        border-radius: 8px;
+        box-shadow: 0 1px 4px rgba(0, 0, 0, 0.04);
+        padding: 0 0 8px 0;
+    }
+    .info-section td {
+        border: none;
+        border-bottom: 1px solid #f0f0f0;
+        position: relative;
+        padding: 14px 12px 10px 12px;
+        font-size: 1.05em;
+        background: none;
+    }
+    .info-section td:before {
+        content: attr(data-label);
+        display: block;
+        font-weight: bold;
+        color: #44217a;
+        margin-bottom: 4px;
+        font-size: 0.98em;
+    }
+    .timeline-container {
+        padding: 0;
+        margin-top: 30px;
+    }
+    .timeline-line {
+        left: 18px;
+        width: 3px;
+        background: #e0e0e0;
+    }
+    .timeline-item {
+        flex-direction: column;
+        align-items: flex-start;
+        margin-bottom: 36px;
+        position: relative;
+        padding-left: 32px;
+    }
+    .timeline-content-left,
+    .timeline-content-right {
+        width: 100%;
+        text-align: left;
+        padding: 0;
+    }
+    .timeline-year {
+        font-size: 1.13rem;
+        font-weight: 700;
+        margin-bottom: 6px;
+        color: #44217a;
+        position: relative;
+        padding-left: 30px;
+    }
+    .timeline-year::before {
+        left: -30px !important;
+        width: 18px;
+        height: 18px;
+        background-size: cover;
+        box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
+    }
+    .timeline-year::after {
+        display: none;
+    }
+    .timeline-description {
+        font-size: 0.98rem;
+        color: #444;
+        line-height: 1.7;
+        background: #f8f7fc;
+        border-radius: 6px;
+        padding: 10px 12px;
+        margin-bottom: 2px;
+    }
+    .empty-side {
+        display: none;
+    }
+}

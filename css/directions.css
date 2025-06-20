@@ -105,3 +105,35 @@
 .fax {
     color: #888;
 }
+
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+    }
+    .company-info {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+    }
+    .company-name {
+        font-size: 24px;
+    }
+    .contact-info {
+        border-left: none;
+        border-top: 1px solid #ccc;
+        padding-left: 0;
+        padding-top: 20px;
+        width: 100%;
+    }
+    .address {
+        font-size: 1.1rem;
+    }
+    .contact-row {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+    .info-item {
+        padding-left: 0;
+    }
+}

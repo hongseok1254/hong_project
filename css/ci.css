@@ -142,3 +142,28 @@
     font-weight: 500;
     color: #333;
 }
+
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+    }
+    .section-header {
+        font-size: 1.2rem;
+    }
+    .logo-section,
+    .symbol-section,
+    .slogan-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+    .kg-logo,
+    .symbol-mark {
+        margin: 0 auto;
+    }
+    .slogan-image {
+        height: 300px;
+    }
+    .think-kg-great {
+        font-size: 24px;
+    }
+}
