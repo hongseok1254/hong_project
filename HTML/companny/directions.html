@@ -19,22 +19,63 @@
     </head>
     <body>
         <div class="wrap">
-            <section class="header">
-                <div class="header_logo"><a href="../../home.html"></a></div>
-                <ul class="header_menu_list">
+            <div id="mobile_nav">
+                <a href="javascript:return false;" class="close_btn">
+                    <span></span>
+                    <span></span>
+                </a>
+                <ul class="mobile_menu_list">
                     <li>
-                        <a href="information.html">회사소개</a>
-                        <ul class="sub_list list_01">
-                            <li><a href="information.html">회사소개</a></li>
-                            <li><a href="ethical.html">윤리경영</a></li>
-                            <li><a href="ceo.html">CEO인사말</a></li>
-                            <li><a href="History.html">연혁</a></li>
-                            <li><a href="ci_information.html">CI소개</a></li>
-                            <li><a href="directions.html">오시는길</a></li>
-                        </ul>
+                        <a href="../companny/information.html">회사소개</a>
                     </li>
                     <li>
                         <a href="../Business/port.html">사업분야</a>
+                    </li>
+                    <li>
+                        <a href="../customer/notice.html">고객센터</a>
+                    </li>
+                    <li>
+                        <a href="../promotion/photo.html">홍보센터</a>
+                    </li>
+                    <li>
+                        <a href="../invest/electronic.html">투자정보</a>
+                    </li>
+                </ul>
+            </div>
+            <section class="header">
+                <div class="header_logo"><a href="home.html"></a></div>
+                <ul class="header_menu_list">
+                    <li>
+                        <a href="#">회사소개</a>
+                        <ul class="sub_list list_01">
+                            <li>
+                                <a href="../companny/information.html"
+                                    >회사소개</a
+                                >
+                            </li>
+                            <li>
+                                <a href="../companny/ethical.html">윤리경영</a>
+                            </li>
+                            <li>
+                                <a href="../companny/ceo.html">CEO인사말</a>
+                            </li>
+                            <li>
+                                <a href="../companny/History.html">연혁</a>
+                            </li>
+                            <li>
+                                <a href="../companny/ci_information.html"
+                                    >CI소개</a
+                                >
+                            </li>
+                            <li>
+                                <a href="../companny/directions.html"
+                                    >오시는길</a
+                                >
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">사업분야</a>
                         <ul class="sub_list list_02">
                             <li>
                                 <a href="../Business/port.html">항만하역</a>
@@ -57,7 +98,7 @@
                         </ul>
                     </li>
                     <li>
-                        <a href="../customer/notice.html">고객센터</a>
+                        <a href="#">고객센터</a>
                         <ul class="sub_list list_03">
                             <li>
                                 <a href="../customer/notice.html">공지사항</a>
@@ -70,7 +111,7 @@
                         </ul>
                     </li>
                     <li>
-                        <a href="../promotion/photo.html">홍보센터</a>
+                        <a href="#">홍보센터</a>
                         <ul class="sub_list list_04">
                             <li>
                                 <a href="../promotion/photo.html"
@@ -90,7 +131,7 @@
                         </ul>
                     </li>
                     <li>
-                        <a href="../invest/electronic.html">투자정보</a>
+                        <a href="#">투자정보</a>
                         <ul class="sub_list list_05">
                             <li>
                                 <a href="../invest/electronic.html">전자공고</a>
@@ -101,7 +142,19 @@
                         </ul>
                     </li>
                 </ul>
-                <div class="hamburger">
+                <div class="desktop-hamburger">
+                    <div class="hamburger">
+                        <a href="javascript:retrun false;">
+                            <span class="one hamburger_color"></span>
+                            <span class="two hamburger_color"></span>
+                            <span class="three hamburger_color"></span>
+                        </a>
+                    </div>
+                    <div class="login_icon_white">
+                        <a href="../login/index.html"></a>
+                    </div>
+                </div>
+                <div class="mobile-hamburger">
                     <a href="javascript:retrun false;">
                         <span class="one hamburger_color"></span>
                         <span class="two hamburger_color"></span>
@@ -110,15 +163,27 @@
                 </div>
                 <div class="hidden_menu">
                     <ul class="hidden_menu_list">
-                        <li><a href="information.html">회사소개</a></li>
-                        <li><a href="ethical.html">윤리경영</a></li>
-                        <li><a href="ceo.html">CEO인사말</a></li>
-                        <li><a href="History.html">연혁</a></li>
-                        <li><a href="ci_information.html">CI소개</a></li>
-                        <li><a href="directions.html">오시는길</a></li>
+                        <li>
+                            <a href="../companny/information.html">회사소개</a>
+                        </li>
+                        <li>
+                            <a href="../companny/ethical.html">윤리경영</a>
+                        </li>
+                        <li>
+                            <a href="../companny/ceo.html">CEO인사말</a>
+                        </li>
+                        <li><a href="../companny/History.html">연혁</a></li>
+                        <li>
+                            <a href="../companny/ci_information.html">CI소개</a>
+                        </li>
+                        <li>
+                            <a href="../companny/directions.html">오시는길</a>
+                        </li>
                     </ul>
                     <ul class="hidden_menu_list">
-                        <li><a href="../Business/port.html">항만하역</a></li>
+                        <li>
+                            <a href="../Business/port.html">항만하역</a>
+                        </li>
                         <li>
                             <a href="../Business/transit.html"
                                 >화물 자동차 운송</a
@@ -134,7 +199,9 @@
                         </li>
                     </ul>
                     <ul class="hidden_menu_list">
-                        <li><a href="../customer/notice.html">공지사항</a></li>
+                        <li>
+                            <a href="../customer/notice.html">공지사항</a>
+                        </li>
                         <li>
                             <a href="../customer/contact.html"
                                 >사업부문별 문의처</a
@@ -165,23 +232,39 @@
                 </div>
             </section>
             <section class="header_white">
-                <div class="header_logo_white">
-                    <a href="../../home.html"></a>
-                </div>
+                <div class="header_logo_white"><a href="home.html"></a></div>
                 <ul class="header_menu_list">
                     <li>
-                        <a href="information.html">회사소개</a>
+                        <a href="#">회사소개</a>
                         <ul class="sub_list list_01">
-                            <li><a href="information.html">회사소개</a></li>
-                            <li><a href="ethical.html">윤리경영</a></li>
-                            <li><a href="ceo.html">CEO인사말</a></li>
-                            <li><a href="History.html">연혁</a></li>
-                            <li><a href="ci_information.html">CI소개</a></li>
-                            <li><a href="directions.html">오시는길</a></li>
+                            <li>
+                                <a href="../companny/information.html"
+                                    >회사소개</a
+                                >
+                            </li>
+                            <li>
+                                <a href="../companny/ethical.html">윤리경영</a>
+                            </li>
+                            <li>
+                                <a href="../companny/ceo.html">CEO인사말</a>
+                            </li>
+                            <li>
+                                <a href="../companny/History.html">연혁</a>
+                            </li>
+                            <li>
+                                <a href="../companny/ci_information.html"
+                                    >CI소개</a
+                                >
+                            </li>
+                            <li>
+                                <a href="../companny/directions.html"
+                                    >오시는길</a
+                                >
+                            </li>
                         </ul>
                     </li>
                     <li>
-                        <a href="../Business/port.html">사업분야</a>
+                        <a href="#">사업분야</a>
                         <ul class="sub_list list_02">
                             <li>
                                 <a href="../Business/port.html">항만하역</a>
@@ -204,7 +287,7 @@
                         </ul>
                     </li>
                     <li>
-                        <a href="../customer/notice.html">고객센터</a>
+                        <a href="#">고객센터</a>
                         <ul class="sub_list list_03">
                             <li>
                                 <a href="../customer/notice.html">공지사항</a>
@@ -217,7 +300,7 @@
                         </ul>
                     </li>
                     <li>
-                        <a href="../promotion/photo.html">홍보센터</a>
+                        <a href="#">홍보센터</a>
                         <ul class="sub_list list_04">
                             <li>
                                 <a href="../promotion/photo.html"
@@ -237,7 +320,7 @@
                         </ul>
                     </li>
                     <li>
-                        <a href="../invest/electronic.html">투자정보</a>
+                        <a href="#">투자정보</a>
                         <ul class="sub_list list_05">
                             <li>
                                 <a href="../invest/electronic.html">전자공고</a>
@@ -248,7 +331,21 @@
                         </ul>
                     </li>
                 </ul>
-                <div class="hamburger">
+                <div class="desktop-hamburger">
+                    <div class="hamburger">
+                        <a href="javascript:retrun false;">
+                            <span class="one hamburger_color_white"></span>
+                            <span class="two hamburger_color_white"></span>
+                            <span class="three hamburger_color_white"></span>
+                        </a>
+                    </div>
+                    <div class="login_icon">
+                        <a href="../login/index.html"
+                            ><img src="images/login_icon.png" alt=""
+                        /></a>
+                    </div>
+                </div>
+                <div class="mobile-hamburger">
                     <a href="javascript:retrun false;">
                         <span class="one hamburger_color_white"></span>
                         <span class="two hamburger_color_white"></span>
@@ -257,15 +354,27 @@
                 </div>
                 <div class="hidden_menu">
                     <ul class="hidden_menu_list">
-                        <li><a href="information.html">회사소개</a></li>
-                        <li><a href="ethical.html">윤리경영</a></li>
-                        <li><a href="ceo.html">CEO인사말</a></li>
-                        <li><a href="History.html">연혁</a></li>
-                        <li><a href="ci_information.html">CI소개</a></li>
-                        <li><a href="directions.html">오시는길</a></li>
+                        <li>
+                            <a href="../companny/information.html">회사소개</a>
+                        </li>
+                        <li>
+                            <a href="../companny/ethical.html">윤리경영</a>
+                        </li>
+                        <li>
+                            <a href="../companny/ceo.html">CEO인사말</a>
+                        </li>
+                        <li><a href="../companny/History.html">연혁</a></li>
+                        <li>
+                            <a href="../companny/ci_information.html">CI소개</a>
+                        </li>
+                        <li>
+                            <a href="../companny/directions.html">오시는길</a>
+                        </li>
                     </ul>
                     <ul class="hidden_menu_list">
-                        <li><a href="../Business/port.html">항만하역</a></li>
+                        <li>
+                            <a href="../Business/port.html">항만하역</a>
+                        </li>
                         <li>
                             <a href="../Business/transit.html"
                                 >화물 자동차 운송</a
@@ -281,7 +390,9 @@
                         </li>
                     </ul>
                     <ul class="hidden_menu_list">
-                        <li><a href="../customer/notice.html">공지사항</a></li>
+                        <li>
+                            <a href="../customer/notice.html">공지사항</a>
+                        </li>
                         <li>
                             <a href="../customer/contact.html"
                                 >사업부문별 문의처</a
@@ -311,7 +422,6 @@
                     </ul>
                 </div>
             </section>
-
             <section>
                 <div class="slide">
                     <h1>회사소개 <br /><span>COMPANY</span></h1>
