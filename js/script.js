@@ -19,3 +19,30 @@ $(window).scroll(function () {
         $('.header').fadeIn();
     }
 });
+document.addEventListener('DOMContentLoaded', () => {
+    const hamburgerButtons = document.querySelectorAll('.mobile-hamburger');
+    const mobileNav = document.getElementById('mobile_nav');
+    const closeButton = document.querySelector('.close_btn');
+
+    const openNav = () => {
+        mobileNav.classList.add('open');
+    };
+
+    const closeNav = () => {
+        mobileNav.classList.remove('open');
+    };
+
+    hamburgerButtons.forEach((button) => {
+        button.addEventListener('click', (e) => {
+            e.preventDefault();
+            openNav();
+        });
+    });
+
+    if (closeButton) {
+        closeButton.addEventListener('click', (e) => {
+            e.preventDefault();
+            closeNav();
+        });
+    }
+});
