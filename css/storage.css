@@ -85,6 +85,8 @@ body {
         width: 90%;
         flex-direction: column;
         font-size: 1rem;
+        box-sizing: border-box;
+        padding-right: 20px;
     }
     .storage_tap .tap_list li {
         width: 100%;
